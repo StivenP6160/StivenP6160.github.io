@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>John — Gameplay Programmer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scanline"></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <span class="logo">JOHN<span class="cursor">_</span></span>
+    <nav>
+      <a href="#proyectos">proyectos</a>
+      <a href="#skills">skills</a>
+      <a href="#sobre-mi">sobre mí</a>
+      <a href="#contacto">contacto</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero wrap">
+    <p class="eyebrow">// gameplay_programmer.cs</p>
+    <h1>Hola, soy John.<br>Programo los sistemas que hacen<br>que un juego <span class="accent">se sienta bien</span>.</h1>
+    <p class="hero-sub">Programador enfocado en <strong>Unity &amp; C#</strong>, construyendo hacia roguelikes y metroidvanias. Actualmente en el bootcamp Junior Unity Developer de Generation Colombia — Medellín, Colombia.</p>
+    <div class="hero-actions">
+      <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+      <a href="#contacto" class="btn btn-ghost">Contacto</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-label">ENGINE</span><span class="stat-value">Unity</span></div>
+      <div class="stat"><span class="stat-label">LANG</span><span class="stat-value">C#</span></div>
+      <div class="stat"><span class="stat-label">STATUS</span><span class="stat-value stat-live">open to work</span></div>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section id="proyectos" class="section wrap">
+    <h2 class="section-title"><span class="tag">01</span> Proyectos destacados</h2>
+    <p class="section-sub">Cada tarjeta es un save file: el sistema que construí, no solo el resultado.</p>
+
+    <div class="project-grid">
+
+      <article class="project-card">
+        <div class="card-media">
+          <img src="assets/project-placeholder-1.svg" alt="Gameplay del endless runner">
+          <span class="card-rarity">RUN</span>
+        </div>
+        <div class="card-body">
+          <h3>Nombre del Endless Runner</h3>
+          <p class="card-desc">Descripción corta de una línea: la mecánica principal y qué lo hace distinto.</p>
+          <ul class="card-stats">
+            <li><span>SISTEMA</span> Input System con coyote time + jump buffering</li>
+            <li><span>SISTEMA</span> Generación procedural de obstáculos con Object Pool</li>
+            <li><span>SISTEMA</span> Escalado de dificultad en runtime</li>
+          </ul>
+          <div class="card-links">
+            <a href="#" class="link-play">▶ Jugar en Itch.io</a>
+            <a href="#" class="link-code">⌥ Ver código</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="card-media">
+          <img src="assets/project-placeholder-2.svg" alt="Gameplay del juego de globos">
+          <span class="card-rarity">PHYS</span>
+        </div>
+        <div class="card-body">
+          <h3>Nombre del Juego de Globos</h3>
+          <p class="card-desc">Descripción corta de una línea: la mecánica principal y qué lo hace distinto.</p>
+          <ul class="card-stats">
+            <li><span>SISTEMA</span> Física de proyectiles con Rigidbody</li>
+            <li><span>SISTEMA</span> Detección de colisiones y triggers</li>
+            <li><span>SISTEMA</span> Feedback visual y sonoro en impactos</li>
+          </ul>
+          <div class="card-links">
+            <a href="#" class="link-play">▶ Jugar en Itch.io</a>
+            <a href="#" class="link-code">⌥ Ver código</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="card-media">
+          <img src="assets/project-placeholder-3.svg" alt="Gameplay de la ameba sigilosa">
+          <span class="card-rarity">AI</span>
+        </div>
+        <div class="card-body">
+          <h3>La Ameba Sigilosa</h3>
+          <p class="card-desc">Descripción corta de una línea: la mecánica principal y qué lo hace distinto.</p>
+          <ul class="card-stats">
+            <li><span>SISTEMA</span> State Machine para patrulla / alerta / persecución</li>
+            <li><span>SISTEMA</span> Detección por campo de visión</li>
+            <li><span>SISTEMA</span> Audio ambiental (Freesound / Zapsplat)</li>
+          </ul>
+          <div class="card-links">
+            <a href="#" class="link-play">▶ Jugar en Itch.io</a>
+            <a href="#" class="link-code">⌥ Ver código</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section wrap">
+    <h2 class="section-title"><span class="tag">02</span> Skills técnicos</h2>
+    <div class="skills-grid">
+      <div class="skill-block">
+        <h4>Motor &amp; Lenguaje</h4>
+        <div class="pills">
+          <span class="pill">Unity</span>
+          <span class="pill">C# 12</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h4>Patrones de diseño</h4>
+        <div class="pills">
+          <span class="pill">Singleton</span>
+          <span class="pill">Observer</span>
+          <span class="pill">State Machine</span>
+          <span class="pill">Object Pool</span>
+          <span class="pill">Factory</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h4>Herramientas</h4>
+        <div class="pills">
+          <span class="pill">Git</span>
+          <span class="pill">Plastic SCM</span>
+          <span class="pill">Unity Cloud Build</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h4>Otros</h4>
+        <div class="pills">
+          <span class="pill">Node.js</span>
+          <span class="pill">React</span>
+          <span class="pill">MySQL</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE MI -->
+  <section id="sobre-mi" class="section wrap">
+    <h2 class="section-title"><span class="tag">03</span> Sobre mí</h2>
+    <div class="about-content">
+      <p>Llegué al desarrollo de videojuegos después de un camino distinto: empecé en ingeniería biomédica, luego pasé por desarrollo de software (Node.js, React, MySQL), y hoy estoy enfocado en programación de gameplay en Unity y C#.</p>
+      <p>Me atraen los roguelikes y metroidvanias — el reto de diseñar sistemas que se sientan bien de jugar y mundos que recompensan la exploración. Estoy cursando el bootcamp Junior Unity Developer de Generation Colombia, un programa intensivo de 14 semanas, con la mira puesta en un rol como programador en un estudio de videojuegos.</p>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="section wrap contact-section">
+    <h2 class="section-title"><span class="tag">04</span> Contacto</h2>
+    <p class="section-sub">¿Hablamos? Estas son las formas de encontrarme.</p>
+    <div class="contact-links">
+      <a href="mailto:tuemail@ejemplo.com" class="btn btn-primary">✉ Email</a>
+      <a href="#" class="btn btn-ghost">LinkedIn</a>
+      <a href="#" class="btn btn-ghost">GitHub</a>
+      <a href="#" class="btn btn-ghost">↓ Descargar CV</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 John — hecho con HTML, CSS y JS puro.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

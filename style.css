@@ -205,6 +205,8 @@ button:focus-visible {
 .material-symbols-outlined {
   font-size: 18px;
   line-height: 1;
+  position: relative;
+  top: 2px;
 }
 
 .hero-stats {
